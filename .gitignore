@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local secrets/config
+.env
+.env.*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw data and generated model artifacts
+NBIDataCollected/
+BridgeResearchProject/
+PredictModels/
+AutogluonModels/
+DeckRate_XGB_*/
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.log
+
+# Temporary spreadsheet lock files
+~$*.xlsx
